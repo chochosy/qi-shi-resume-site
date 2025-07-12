@@ -27,7 +27,7 @@ The website includes the following sections:
 
 ## 📎 Resume
 
-You can download the latest resume [here]([./Qi_Shi_Resume.pdf](https://github.com/chochosy/qi-shi-resume-site/blob/main/Resume_Qi%20Shi_Analyst.pdf).
+You can download the latest resume [here](https://github.com/chochosy/qi-shi-resume-site/blob/main/Resume_Qi%20Shi_Analyst.pdf).
 
 ---
 
