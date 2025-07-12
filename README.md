@@ -15,9 +15,9 @@ The website includes the following sections:
 3. **Skills** – Tools, platforms, languages, and technical expertise
 4. **Projects** – Featured project: TikTok shop launch for U.S. market
 5. **Experience** – Roles at Obio Tech and COSCO Shipping Group
-6. **AI Tools I Use** – Overview of my AI workflows and toolset
+6. **Education & Certifications** – Degree programs and credentials
 7. **Resume Download** – Downloadable PDF version of my CV
-8. **Education & Certifications** – Degree programs and credentials
+8. **AI Tools I Use** – Overview of my AI workflows and toolset
 
 ## 🛠️ Technologies Used
 
