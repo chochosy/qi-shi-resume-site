@@ -1,0 +1,413 @@
+/* Base styles */
+body {
+  font-family: 'Inter', 'Open Sans', sans-serif;
+  margin: 0;
+ background: linear-gradient(to bottom, #FFFFFF 0%, #F0F2F5 100%);
+  color: #101E3F;
+}
+
+/* Contact section container */
+.contact-section {
+  padding: 2rem;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows stacking on small screens */
+}
+
+.contact-name {
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact-name h2 {
+  margin-top: 0;
+}
+
+.contact-details {
+  flex: 2;
+  color: #404B65; /* Secondary text color */
+}
+
+.contact-details p {
+  margin: 0.25rem 0;
+}
+
+.contact-details a {
+  color: #F78620; /* Accent color for links */
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+}
+/* About section container */
+#about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  color: #101E3F;
+  margin-bottom: 20px;
+}
+
+#about p {
+  margin: 10px 0;
+}
+
+/* Responsive left-align for wider screens */
+@media (min-width: 600px) {
+  #about {
+    text-align: left;
+  }
+}
+/* Skills section wrapper */
+#skills {
+  padding: 2rem 1rem;
+}
+
+#skills h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Container for categories */
+.skill-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.skill-category {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.category-label {
+  font-weight: bold;
+  color: #F78620;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  color: #404B65;
+}
+
+/* Stack categories vertically on small screens */
+@media (max-width: 600px) {
+  .skill-category {
+    flex: 1 1 100%;
+    max-width: none;
+  }
+}
+
+/* Experience section */
+#experience {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+#experience h2 {
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+  text-align: center; /* 或 center，看你希望标题对齐方式 */
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.job {
+  margin-bottom: 2rem;
+}
+
+.job-title {
+  color: #F78620; /* accent color */
+  font-weight: bold;
+}
+
+.company-date {
+  color: #404B65; /* secondary text color */
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+#experience ul {
+  padding-left: 1.25rem;
+  color: #404B65;
+}
+
+#experience li {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive layout */
+@media (min-width: 600px) {
+  #experience {
+    padding: 3rem 2rem;
+  }
+}
+/* Projects section */
+.projects-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.projects-section h2 {
+  color: #101E3F;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.project-title {
+  color: #F78620;
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.project-date {
+  font-size: 0.9rem;
+  color: #404B65;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.project-details {
+  padding-left: 1.2rem;
+  color: #404B65;
+}
+
+@media (max-width: 600px) {
+  .projects-section h2 {
+    font-size: 1.5rem;
+  }
+  .project-title {
+    font-size: 1.1rem;
+  }
+}
+#project-gallery {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+#project-gallery h2 {
+  text-align: center;
+  color: #101E3F;
+  margin-bottom: 2rem;
+}
+
+.project-image {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.project-image img {
+  width: 80%;
+  display: block;
+  margin: 0 auto 0.75rem;
+}
+
+.project-image figcaption {
+  font-size: 0.9rem;
+  color: #404B65;
+  line-height: 1.5;
+}
+
+/* Education & Certifications section */
+#education-certifications {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+#education-certifications h2 {
+  color: #101E3F;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.edu-block, .cert-block {
+  margin-bottom: 2rem;
+}
+
+.edu-block h3, .cert-block h3 {
+  color:  #F78620;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.cert-block li h3 {
+  color: #404B65;
+  font-weight: 500;
+}
+
+
+.edu-block small, .cert-block small {
+  color: #5A6378;
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+#education-certifications ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#education-certifications li {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+#education-certifications hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  #education-certifications {
+    padding: 1.5rem 1rem;
+  }
+
+  .edu-block h3, .cert-block h3 {
+    font-size: 1rem;
+  }
+
+  #education-certifications li {
+    line-height: 1.5;
+  }
+}
+
+
+/* AI Tools section */
+.ai-tools-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.ai-tools-section h2 {
+  color: #101E3F;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ai-tools-section h3 {
+  color: #F78620;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ai-tools-section ul {
+  margin: 0 0 1rem 1.2rem;
+  padding: 0;
+  color: #404B65;
+}
+
+.ai-tools-section li {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .ai-tools-section {
+    padding: 1.5rem;
+  }
+}
+/* Resume Download Button */
+.resume-download {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.resume-btn {
+  display: inline-block;
+  background: #F78620;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.2s ease-in-out;
+}
+
+.resume-btn:hover,
+.resume-btn:focus {
+  background: #e4751c;
+}
+/* Top Banner Section */
+.banner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.banner h2 {
+  margin: 0;
+  color: #101E3F;
+  font-weight: 600;
+}
+
+.banner p {
+  margin: 0.5em 0 0 0;
+  color: #404B65;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .banner h2 {
+    font-size: 1.25rem;
+  }
+}
+/* Why I Built This Website section */
+#why {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#why h3 {
+  color: #101E3F;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+#why p {
+  line-height: 1.6;
+  color: #404B65;
+  text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+  #why {
+    text-align: center;
+  }
+}
+
+@media (min-width: 601px) {
+  #why {
+    text-align: left;
+  }
+}
+
