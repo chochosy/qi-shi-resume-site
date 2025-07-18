@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Import Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <title>Contact - Qi Shi</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: 'Inter', 'Open Sans', sans-serif;
+      margin: 0;
+      background-color: #FFFFFF; /* Page background */
+      color: #101E3F; /* Primary text color */
+    }
+    /* Contact section container */
+    .contact-section {
+      padding: 2rem;
+    }
+    .contact-wrapper {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap; /* Allows stacking on small screens */
+    }
+    .contact-name {
+      flex: 1;
+      min-width: 200px;
+    }
+    .contact-name h2 {
+      margin-top: 0;
+    }
+    .contact-details {
+      flex: 2;
+      color: #404B65; /* Secondary text color */
+    }
+    .contact-details p {
+      margin: 0.25rem 0;
+    }
+    .contact-details a {
+      color: #F78620; /* Accent color for links */
+    }
+    /* Mobile layout: stack columns */
+    @media (max-width: 600px) {
+      .contact-wrapper {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="contact-wrapper">
+      <div class="contact-name">
+        <h2>Qi Shi</h2>
+      </div>
+      <address class="contact-details">
+        <p>Email: <a href="mailto:qi.shi.analyst@gmail.com">qi.shi.analyst@gmail.com</a></p>
+        <p>Phone: <a href="tel:+16479041336">+1&nbsp;(647)&nbsp;904‑1336</a> / <a href="tel:+8618896556492">+86&nbsp;188&nbsp;9655&nbsp;6492</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/qi-shi-analyst/">https://www.linkedin.com/in/qi-shi-analyst/</a></p>
+        <p class="note">Available for video interviews. Prefer contact via email or LinkedIn.</p>
+      </address>
+    </div>
+  </section>
+</body>
+</html>
